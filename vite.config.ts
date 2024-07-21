@@ -1,10 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
-import autoprefixer from 'autoprefixer'
+import eslint from 'vite-plugin-eslint'
+
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  css: {
-    postcss: './postcss.config.ts'
+  plugins: [
+    react(),
+    eslint()
+  ],
+  server: {
+    hmr: {
+      overlay:false
+    }
   }
 })
