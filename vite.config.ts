@@ -14,5 +14,5 @@ export default defineConfig({
       overlay:false
     }
   },
-  base: "/"
+  base: "/vite-project/"
 })
