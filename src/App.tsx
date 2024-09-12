@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 function App() {
   return (
     <>
-      {/* <BrowserRouter basename="/vite-project/">
+      <BrowserRouter >
         <Header></Header>
         <div>
           <header className="App-header">
@@ -20,11 +20,10 @@ function App() {
             <Route path="/about" element={<div>about</div>}></Route>
           </Routes>
         </div>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
-      <BrowserRouter basename="/vite-project/">
+      {/* <BrowserRouter >
         <Header />
-        {/* <WindowScroller /> */}
         <div>
           <header className="App-header">
             <img className="w-20" alt="logo" />
@@ -37,7 +36,7 @@ function App() {
             <Route path="/about" element={<div>about</div>} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   )
 }
