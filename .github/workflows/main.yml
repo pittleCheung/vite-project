@@ -12,6 +12,11 @@ jobs:
       uses: actions/checkout@v2
       with:
         persist-credentials: false
+    
+     # Install pnpm
+    - name: Install pnpm
+      run: |
+        npm install -g pnpm
         
     # react项目为npm run-script build，vue项目改为npm run build
     - name: Install and Build
