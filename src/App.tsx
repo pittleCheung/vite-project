@@ -14,7 +14,7 @@ function App() {
           <Link to="/home">Home</Link>
           <Link to="/about">About</Link>
         </header>
-        <BrowserRouter>
+        <BrowserRouter basename='/vite-project/'>
           <Routes>
             <Route path="/home" element={<div>home</div>}></Route>
             <Route path="/about" element={<div>about</div>}></Route>
