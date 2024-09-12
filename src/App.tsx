@@ -9,7 +9,7 @@ function App() {
       <div>
         <header className="App-header">
           <img className="w-20" alt="logo" />
-          <p className="bg-red-400">Hello Vite + React!</p>
+          <p className="bg-red-400">Hello Vite + React123!</p>
         </header>
       </div>
     </>
