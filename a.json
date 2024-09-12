@@ -1,0 +1,93 @@
+{
+    "nodes": [
+        {
+            "position": {
+                "x": 100,
+                "y": 90
+            },
+            "size": {
+                "width": 125,
+                "height": 28
+            },
+            "view": "react-shape-view",
+            "shape": "DefaultComp",
+            "label": "计算系统数据",
+            "data": {
+                "F_LB_ID": "qqEDonWBcVce0q3AJRuTtB",
+                "F_TITLE": "计算系统数据",
+                "F_TYPE": "DLL",
+                "F_CATE": "Calc",
+                "F_CLASS_NAME": "DeepLogic.Logic.SysVarsCalc.Main",
+                "F_VERSION": "0.01",
+                "F_AUTHOR": "luxy",
+                "F_CREATE_TIME": "2022-07-05T16:05:13.355958",
+                "F_T_ID": "OCu19o45mW0GyBjEL6R403",
+                "T": "计算系统数据",
+                "F_L_ID": "FnWFZW_yOdIfoIxlZ9ekLS",
+                "copy_from": null
+            },
+            "ports": {
+                "items": [
+                    {
+                        "group": "in",
+                        "id": "nntisqNviDBXu238FH64l_in"
+                    },
+                    {
+                        "group": "out",
+                        "id": "nntisqNviDBXu238FH64l_out"
+                    }
+                ],
+                "groups": {
+                    "in": {
+                        "position": {
+                            "name": "absolute",
+                            "args": {
+                                "x": 0,
+                                "y": 16
+                            }
+                        },
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        },
+                        "zIndex": 1
+                    },
+                    "out": {
+                        "position": {
+                            "name": "absolute",
+                            "args": {
+                                "x": "100%",
+                                "y": 16
+                            }
+                        },
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "magnet": true,
+                                "stroke": "#5F95FF",
+                                "strokeWidth": 1,
+                                "fill": "#fff",
+                                "style": {
+                                    "visibility": "hidden"
+                                }
+                            }
+                        },
+                        "zIndex": 1
+                    }
+                }
+            },
+            "id": "nntisqNviDBXu238FH64l",
+            "zIndex": 1,
+            "attrs": null
+        }
+    ],
+    "edges": []
+}
